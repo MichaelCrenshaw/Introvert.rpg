@@ -1,4 +1,4 @@
-package src.entities.creatures;
+package entities.creatures;
 
 import src.entities.core.Creature;
 

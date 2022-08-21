@@ -1,4 +1,4 @@
-package src.entities.core;
+package entities.core;
 
 public abstract class Creature {
     private int health;

@@ -1,4 +1,4 @@
-package src.entities.core;
+package entities.core;
 
 import java.awt.*;
 import src.util.AssetPool;
