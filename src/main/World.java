@@ -1,6 +1,6 @@
 package main;
 
-import src.util.LevelData;
+import util.LevelData;
 
 public class World {
 	

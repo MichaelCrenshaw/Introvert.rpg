@@ -1,8 +1,13 @@
-package src.util;
+package util;
 
 import java.awt.image.BufferedImage;
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.HashMap;
 
 import javax.imageio.ImageIO;
@@ -27,5 +32,14 @@ public class AssetPool {
 		}
 	}
 	
-	
+	public LevelData loadLevel(String fileName) {
+
+        try {
+			String source = new String(Files.readAllBytes(Paths.get(projectPath + fileName + ".png")));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		return null;
+	}
 }

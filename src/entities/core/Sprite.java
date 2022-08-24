@@ -1,7 +1,8 @@
 package entities.core;
 
 import java.awt.*;
-import src.util.AssetPool;
+
+import util.AssetPool;
 
 public class Sprite {
     private static Image spriteImage;
